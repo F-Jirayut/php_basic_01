@@ -15,7 +15,7 @@
     echo "<br>";
 
     foreach ($data as $key => $value) {
-        echo $value; // $value = $data[$i]
+        echo "key = {$key} value = {$value}"; // $value = $data[$i]
         echo "<br>";
     }
 

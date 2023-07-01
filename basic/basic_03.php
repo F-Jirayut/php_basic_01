@@ -35,6 +35,8 @@
         }
     }
     $oj = new user();
+    echo $oj->getId();
+    echo "<br>";
 
     // null
     $data = null;
